@@ -124,7 +124,7 @@ main {
   position: relative;
   z-index: 1;
   animation: fadeInUp 1s ease-out forwards;
-  padding-bottom: var(--space-10);
+  padding-bottom: var(--space-0);
 }
 
 .name {
@@ -204,7 +204,7 @@ blockquote span {
 .experience-section strong {
   font-size: var(--font-size-3xl);
   font-weight: var(--font-weight-bold);
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-0);
   background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-secondary) 100%);
   -webkit-background-clip: text;
   background-clip: text;
@@ -479,7 +479,7 @@ html[data-theme='light'] .experience-section {
   /* Experience section adjustments */
   .experience-section {
     position: absolute;
-    bottom: 50px;
+    bottom: 25px;
     animation: none;
   }
 
