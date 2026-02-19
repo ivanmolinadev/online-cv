@@ -52,12 +52,12 @@ export class Layout {
   heroImage = computed(() => {
     if (this.PORTFOLIO_DATA.templateConfig.layoutMode === 'portrait') {
       return this.#themeService.currentTheme() === 'dark'
-        ? 'portrait/backgrounds/dark-theme-bg.webp'
-        : 'portrait/backgrounds/light-theme-bg.webp';
+        ? 'spotlight/hero-dark-theme.png'
+        : '';
     }
 
     return this.#themeService.currentTheme() === 'dark'
       ? 'spotlight/hero-dark-theme.png'
-      : 'spotlight/hero-dark-theme.png';
+      : '';
   });
 }
