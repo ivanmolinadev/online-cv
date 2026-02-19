@@ -405,6 +405,7 @@ html[data-theme='light'] .experience-section {
 /* Mobile (576px and below) */
 @media (max-width: 576px) {
   /* Hero section adjustments */
+
   .hero-section {
     grid-template-columns: 1fr;
     height: auto;
@@ -461,7 +462,7 @@ html[data-theme='light'] .experience-section {
   /* Typography adjustments */
   .name-and-role {
     position: absolute;
-    bottom: 155px;
+    bottom: 125px;
     width: 100%;
     margin-top: var(--space-2);
   }
@@ -478,7 +479,7 @@ html[data-theme='light'] .experience-section {
   /* Experience section adjustments */
   .experience-section {
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
     animation: none;
   }
 
